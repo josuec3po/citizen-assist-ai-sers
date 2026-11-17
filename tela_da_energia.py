@@ -61,15 +61,15 @@ def calcular_economia(caminho=CAMINHO_PREMISSAS):
 
     fator = valor(premissas, "fator_emissao_kg_co2_kwh")
     invest = valor(premissas, "investimento_solar_rs")
-    atual = energia.consumo_kwh_mes(valor(premissas, "chuveiro_potencia_w"),
+    atual = energia_calculos.consumo_kwh_mes(valor(premissas, "chuveiro_potencia_w"),
                                     minutos * pessoas, valor(premissas, "dias_mes"))
-    consciente = energia.consumo_com_reducao(atual, valor(premissas, "reducao_banho_pct"))
-    solar = energia.consumo_com_solar(atual, valor(premissas, "fracao_solar_pct"))
+    consciente = energia_calculos.consumo_com_reducao(atual, valor(premissas, "reducao_banho_pct"))
+    solar = energia_calculos.consumo_com_solar(atual, valor(premissas, "fracao_solar_pct"))
 
     opcoes = [
-        ("Chuveiro elétrico (situação atual)", energia.comparar(atual, atual, tarifa, fator)),
-        ("Uso consciente (banho mais curto)", energia.comparar(atual, consciente, tarifa, fator)),
-        ("Aquecimento solar (com apoio elétrico)", energia.comparar(atual, solar, tarifa, fator, invest)),
+        ("Chuveiro elétrico (situação atual)", energia_calculos.comparar(atual, atual, tarifa, fator)),
+        ("Uso consciente (banho mais curto)", energia_calculos.comparar(atual, consciente, tarifa, fator)),
+        ("Aquecimento solar (com apoio elétrico)", energia_calculos.comparar(atual, solar, tarifa, fator, invest)),
     ]
 
     print("\nEstimativa por mês:")
