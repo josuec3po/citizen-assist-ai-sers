@@ -124,7 +124,7 @@ Os registros detalhados dos testes da calculadora de energia e das perguntas sob
 
 ## Vídeo técnico
 
-* Link do vídeo (YouTube não listado): [INSERIR LINK AQUI ANTES DE SUBIR NO GITHUB]
+* Link do vídeo: https://youtu.be/a8f86qVpld8
 
 ```
 
