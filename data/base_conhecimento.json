@@ -317,7 +317,7 @@
       "valor da conta"
     ],
     "resposta": "O chuveiro elétrico (5.500 W na posição inverno) pesa bastante na conta de luz. Em uma casa com 2 pessoas tomando banhos de 10 minutos por dia, o gasto estimado é de 55 kWh por mês (cerca de R$ 50,60/mês ou R$ 607/ano, na tarifa de R$ 0,92/kWh). Diminuir o banho para 7 minutos ou mudar a chave para o modo morno/verão corta o consumo em 30%, economizando em torno de R$ 15,18 por mês (R$ 182/ano) e evitando 7,6 kg de CO2/ano, sem gastar nada. Use a opção 12 do menu para simular com os dados da sua casa. Atenção: são estimativas e mudam conforme a tarifa da sua cidade e a potência do aparelho.",
-    "documentos": "Nenhum documento necessário. Para conferir a tarifa exata da sua casa, olhe a última conta de luz.",
+    "documentos": ["Nenhum documento necessário. Para conferir a tarifa exata da sua casa, olhe a última conta de luz."],
     "onde": "Na própria casa ou simulando na opção 12 (Calcular economia de energia) deste assistente.",
     "fonte": "ANEEL (tarifa média), Procel/Inmetro (potência de chuveiros) e MCTI (emissões)",
     "verificado_em": "2026-11-19"
@@ -338,7 +338,7 @@
       "retorno"
     ],
     "resposta": "O aquecedor solar usa o calor do sol para esquentar a água e cobre cerca de 70% da energia do banho (os outros 30% usam apoio elétrico em dias frios ou nublados). Para 2 moradores, o gasto mensal do banho cai de R$ 50,60 para R$ 15,18, economizando R$ 35,42/mês (R$ 425/ano) e evitando 17,8 kg de CO2 por ano. O equipamento instalado custa em média R$ 3.200,00 e leva cerca de 7,5 anos para se pagar em casas de 2 pessoas (com 4 moradores, o retorno cai para menos de 4 anos). Não serve para apartamentos ou casas alugadas sem permissão do dono, pois precisa de telhado com sol e espaço para o reservatório térmico.",
-    "documentos": "Orçamentos de instaladores credenciados (Inmetro) e autorização do proprietário ou condomínio, se precisar.",
+    "documentos": ["Orçamentos de instaladores credenciados (Inmetro) e autorização do proprietário ou condomínio, se precisar."],
     "onde": "Empresas de aquecimento solar residencial. Simule o retorno para sua casa na opção 12 deste assistente.",
     "fonte": "EPE / Dasol-Abrava (fração solar), Procel e MCTI",
     "verificado_em": "2026-11-19"
