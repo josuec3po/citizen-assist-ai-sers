@@ -1,0 +1,41 @@
+[
+  {
+    "participante": "P01",
+    "data": "2026-11-18 12:05:39",
+    "origem": "pergunta",
+    "pergunta": "como baixar o valor da conta de luz",
+    "id_orientacao": 13,
+    "encontrou": true,
+    "ajudou": true,
+    "tentativas": 1,
+    "tempo_segundos": 21.0,
+    "sessao": "2026-11-18 12:05:06",
+    "nota_facilidade": 5
+  },
+  {
+    "participante": "P02",
+    "data": "2026-11-19 15:17:35",
+    "origem": "pergunta",
+    "pergunta": "posso colocar aquecedor solar em apartamento",
+    "id_orientacao": 14,
+    "encontrou": true,
+    "ajudou": true,
+    "tentativas": 1,
+    "tempo_segundos": 11.3,
+    "sessao": "2026-11-19 15:16:15",
+    "nota_facilidade": 3
+  },
+  {
+    "participante": "P03",
+    "data": "2026-11-19 15:18:08",
+    "origem": "pergunta",
+    "pergunta": "12",
+    "id_orientacao": null,
+    "encontrou": false,
+    "ajudou": false,
+    "tentativas": 1,
+    "tempo_segundos": 10.1,
+    "sessao": "2026-11-19 15:17:56",
+    "nota_facilidade": null
+  }
+]

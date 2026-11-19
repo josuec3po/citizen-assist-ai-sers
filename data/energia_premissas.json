@@ -1,0 +1,72 @@
+{
+  "descricao": "Premissas dos cálculos de energia. 'tipo' = real (dado publicado) ou estimado (premissa da equipe, justificar).",
+  "tarifa_kwh": {
+    "valor": 0.92,
+    "unidade": "R$/kWh",
+    "tipo": "real",
+    "fonte": "ANEEL / Enel SP - Tarifa Residencial B1 com impostos (PIS/COFINS/ICMS)",
+    "acesso_em": "2026-11-14",
+    "observacao": "Valor médio residencial com tributos em bandeira verde."
+  },
+  "chuveiro_potencia_w": {
+    "valor": 5500,
+    "unidade": "W",
+    "tipo": "real",
+    "fonte": "Procel / Inmetro - Tabela de Consumo de Chuveiros Elétricos",
+    "acesso_em": "2026-11-17",
+    "observacao": "Potência nominal típica de chuveiro elétrico na posição inverno."
+  },
+  "banho_minutos_pessoa_dia": {
+    "valor": 10,
+    "unidade": "min/pessoa/dia",
+    "tipo": "estimado",
+    "fonte": "Estimativa da equipe baseada em recomendações da Sabesp/Procel",
+    "acesso_em": "2026-11-14",
+    "observacao": "Tempo médio estimado de 1 banho diário de 10 minutos por morador."
+  },
+  "dias_mes": {
+    "valor": 30,
+    "unidade": "dias",
+    "tipo": "estimado",
+    "fonte": "Premissa padrão comercial do setor elétrico",
+    "acesso_em": "2026-11-14",
+    "observacao": "Mês comercial padrão de 30 dias."
+  },
+  "reducao_banho_pct": {
+    "valor": 30,
+    "unidade": "%",
+    "tipo": "estimado",
+    "fonte": "Procel Info - Dicas de Economia de Energia",
+    "acesso_em": "2026-11-15",
+    "observacao": "Redução estimada ao diminuir o tempo de banho (de 10 para 8 min) ou usar a chave na posição verão/morno."
+  },
+  "fracao_solar_pct": {
+    "valor": 70,
+    "unidade": "%",
+    "tipo": "real",
+    "fonte": "LabEEE / UFSC (Tese Thalita Giglio) — Fração solar média residencial no Brasil",
+    "acesso_em": "2026-11-15",
+    "observacao": "Parte da energia do banho atendida pelo sol (os 30% restantes usam apoio elétrico em dias nublados)."
+  },
+  "investimento_solar_rs": {
+    "valor": 3200,
+    "unidade": "R$",
+    "tipo": "real",
+    "fonte": "Energia Solar Explicada (Rodrigo Freitas) — Estimativa de mercado para aquecedor solar acoplado 200L instalado",
+    "acesso_em": "2026-11-12",
+    "observacao": "Custo médio para residência de até 3 pessoas (placas coletoras, reservatório térmico e instalação)."
+  },
+  "fator_emissao_kg_co2_kwh": {
+    "valor": 0.0385,
+    "unidade": "kg CO2/kWh",
+    "tipo": "real",
+    "fonte": "MCTI - Fator Médio de Emissão do Sistema Interligado Nacional (SIN)",
+    "acesso_em": "2026-11-19",
+    "observacao": "Fator médio anual de emissão de gases de efeito estufa da rede elétrica brasileira."
+  },
+  "limitacoes": [
+    "A economia real depende da região, incidência solar, tarifa local e bandeira tarifária vigente.",
+    "O aquecedor solar exige telhado com boa incidência solar, espaço para reservatório (boiler) e estrutura adequada, não sendo viável para apartamentos ou imóveis sem autorização de reforma.",
+    "Em dias muito frios ou nublados, o sistema solar aciona a resistência elétrica de apoio, aumentando o consumo."
+  ]
+}
