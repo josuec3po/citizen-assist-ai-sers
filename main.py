@@ -1,7 +1,7 @@
 from base_conhecimento import BaseConhecimento
 from assistente import Assistente, pedir_opcao
 import gerir
-import tela_energia
+import tela_da_energia
 
 
 def main():
@@ -60,7 +60,7 @@ def main():
             elif opcao == 11:
                 assistente.exportar_csv()
             elif opcao == 12:
-                tela_energia.calcular_economia()
+                tela_da_energia.calcular_economia()
             else:
                 assistente.pedir_nota()
                 assistente.exportar_csv()
