@@ -1,0 +1,9 @@
+# Referências
+
+1. ENEL DISTRIBUIÇÃO SÃO PAULO. *Tarifas, taxas e impostos (Grupo B — Residencial)*. Disponível em: <https://www.enel.com.br/pt-saopaulo/Para_Voce/tarifa-taxas-e-impostos.html>. Acesso em: 14 nov. 2026.
+2. INMETRO / PROCEL. *Programa Brasileiro de Etiquetagem (PBE) — Tabela de Consumo e Eficiência Energética de Chuveiros Elétricos*. Disponível em: <http://www.inmetro.gov.br/consumidor/pbe/PBE5.pdf>. Acesso em: 17 nov. 2026.
+3. SABESP. *Variações de consumo e dicas de uso consciente de água e energia no banho*. Disponível em: <https://www.sabesp.com.br/servicos/variacoes-de-consumo>. Acesso em: 14 nov. 2026.
+4. PROCEL INFO. *Metodologias e critérios de eficiência energética para equipamentos residenciais*. Disponível em: <https://smartseloprocel.procelinfo.com.br/metodologias/equipamentos/1>. Acesso em: 15 nov. 2026.
+5. GIGLIO, Thalita Gorban Ferreira. *Avaliação do desempenho térmico e fração solar de sistemas de aquecimento solar de água em habitações*. Tese (Doutorado) — Laboratório de Eficiência Energética em Edificações (LabEEE), Universidade Federal de Santa Catarina (UFSC). Disponível em: <https://labeee.ufsc.br/sites/default/files/publicacoes/teses/TESE_ThalitaGiglio2.pdf>. Acesso em: 15 nov. 2026.
+6. FREITAS, Rodrigo. *Aquecedor solar: quanto custa, como funciona e vale a pena?*. Blog Energia Solar Explicada. Disponível em: <https://energiasolarexplicada.com.br/blog/aquecedor-solar/>. Acesso em: 12 nov. 2026.
+7. MINISTÉRIO DA CIÊNCIA, TECNOLOGIA E INOVAÇÃO (MCTI). *Fator Médio de Emissão de CO2 do Sistema Interligado Nacional (SIN) — Inventários Corporativos*. Disponível em: <https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/cgcl/paginas/fator-medio-inventarios-corporativos>. Acesso em: 19 nov. 2026.
